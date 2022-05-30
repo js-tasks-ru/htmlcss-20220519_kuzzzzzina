@@ -12,6 +12,7 @@
 
     border-radius: 8px;
     border: none;
+    box-sizing: border-box;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 
     cursor: pointer;
