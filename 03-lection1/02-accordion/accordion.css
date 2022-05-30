@@ -4,6 +4,7 @@
     border-radius: 8px;
     padding: 24px 32px;
     margin-bottom: 8px;
+    box-sizing: border-box;
 
     font-family: 'Inter';
     font-style: normal;
