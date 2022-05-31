@@ -1,0 +1,50 @@
+.histogram {
+    max-width: 350px;
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 12px;
+    padding: 24px 32px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.histogram__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.histogram__order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.histogram__name {
+    color: var(--grey-4);
+}
+
+.histogrram__number {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.histogram__chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+    height: 100px;
+}
+
+.histogram__chart-point{
+    background-color: var(--blue);
+    flex: auto;
+}
+
+.histogram__card-name {
+    text-align: center;
+}
