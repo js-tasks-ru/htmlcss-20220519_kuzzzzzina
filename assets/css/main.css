@@ -1,9 +1,9 @@
 @import '../fonts/fonts.css';
 @import './normalize.css';
 
+@import '../../components/page/page.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
-@import '../../components/header/header.css';
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/card/card.css';
@@ -29,6 +29,6 @@
 
 html, body {
     height: 100%;
-    background: blue;
+    /*background: blue;*/
     font-family: 'Roboto', sans-serif;
 }
