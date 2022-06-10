@@ -1,7 +1,8 @@
 .tooltip {
     display: inline-block;
-    margin: 100px; 
     position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 .tooltip__icon {
