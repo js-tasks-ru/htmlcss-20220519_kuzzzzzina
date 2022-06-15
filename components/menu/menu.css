@@ -1,0 +1,52 @@
+.menu {
+    width: 229px;
+}
+
+.menu__title {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.menu__list {
+    padding-left: 0;
+}
+
+.menu__item {
+    list-style: none;
+    padding-bottom: 4px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #212429;
+}
+
+.menu__link_active {
+    color: #D84910;
+}
+
+.component {
+    background: white;    
+}
+
+.component__title {
+    margin: 0;
+    padding: 32px 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #495057;
+}

@@ -1,5 +1,9 @@
 .preview {
     padding: 68px 0;
+
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+    background-color: var(--white-01);
 }
 
 .preview__inner {
@@ -8,3 +12,16 @@
     gap: 30px;
 }
 
+.preview__page{
+    grid-area: main;
+    border: none;
+    padding: 36px 0;
+}
+
+.preview__page-inner {
+    background: transparent;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+}
